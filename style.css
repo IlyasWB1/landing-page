@@ -154,9 +154,38 @@ header .logo{
     width: 70%;
 }
 div .register_desc{
+    width: 100%;
+    margin-bottom: 0;
     flex-direction: column;
 }
 
+div .register_desc div{
+    margin-bottom: 0;
+}
+
 div .btn_container{
+    flex-shrink: 1;
     justify-content: center;
+}
+
+div .btn_container button{
+    background-color: #3882F6;
+    border-color: #E5E7EB;
+    color: #E5E7EB;
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 500;
+    height: 40px;
+    width: 120px;
+}
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
 }
